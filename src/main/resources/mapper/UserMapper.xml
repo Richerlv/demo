@@ -13,7 +13,7 @@
     </update>
 
     <insert id="insertUser" parameterType="com.example.demo.pojo.User">
-        insert into user (name, password) values (#{name}, #{password})
+        insert into user (id, name, password) values (#{id}, #{name}, #{password})
     </insert>
 
     <delete id="deleteById" >

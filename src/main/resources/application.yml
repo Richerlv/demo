@@ -4,7 +4,7 @@ simple-router:
   jdbc:
     datasource:
       dbCount: 2
-      tbCount: 4
+      tbCount: 6
       routerKey: "id"
       list: db01,db02
       default: db00
